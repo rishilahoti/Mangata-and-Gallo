@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(rgb(55, 25, 55) , rgb(14, 14, 34));
+    font-family: 'Poppins';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(255, 244, 181);
+    height: 50px;
+    margin: 3rem auto auto auto;
+    border: 2px;
+    border-radius: 20px;
+    border-style: outset;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 11px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.info {
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: black;
+    text-align: justify;
+    border-style: groove;
+}
+
+.about {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: black;
+    text-align: justify;
+    border-style: groove;
+}
+
+.more {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: black;
+    text-align: justify;
+    border-style: groove;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    padding: 3rem;
+    border-radius: 30px;
+    border-style: inset;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+}
+
+footer p {
+    display: block;
+    margin-top: 38px;
+    margin-left: 150px;
+}
+
+footer div {
+    flex: 1;
+}
